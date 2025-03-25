@@ -1,0 +1,31 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{ 
+    min-width: 375px;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://i.pinimg.com/736x/a1/10/8b/a1108b762ce0869499453ee67c0d87f7.jpg);
+    background-size: cover;
+
+}
+
+header{
+    width: 98%;
+    /* border:2px solid;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5em;
+    padding: 1%;
+    background-color: rgba(188, 187, 255, 0.479);
+    border-radius: 10px;
+    box-shadow: 0 0 60px rgb(163, 157, 255);
+    overflow: hidden;
+}
